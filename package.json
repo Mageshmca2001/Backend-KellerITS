@@ -1,0 +1,35 @@
+{
+  "name": "backend-kellerits",
+  "version": "1.0.0",
+  "description": "created in backend services with Mongodb init",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node.Database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mageshmca2001/backend.git"
+  },
+  "keywords": [
+    "backend",
+    "services"
+  ],
+  "author": "Magesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mageshmca2001/backend/issues"
+  },
+  "homepage": "https://github.com/Mageshmca2001/backend#readme",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "connect-session-sequelize": "^7.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.7.1",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.4"
+  }
+}
